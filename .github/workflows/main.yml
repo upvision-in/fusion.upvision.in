@@ -1,0 +1,27 @@
+name: Test Commit Workflow
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  test-commit:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v3
+
+    - name: Create Test File
+      run: echo "This is a test commit" > test.txt
+
+    - name: Commit and Push Changes
+      run: |
+        git config --global user.name "GitHub Actions"
+        git config --global user.email "actions@github.com"
+        git add test.txt
+        git commit -m "Add test.txt for commit testing" || echo "No changes to commit"
+        git push origin main
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
