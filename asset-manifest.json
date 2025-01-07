@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/static/css/main.4705d9c4.css",
+    "main.js": "/static/js/main.3d267741.js",
+    "static/media/UpVision.FullLogo.png": "/static/media/UpVision.FullLogo.9461cf8a290795d81361.png",
+    "index.html": "/index.html",
+    "main.4705d9c4.css.map": "/static/css/main.4705d9c4.css.map",
+    "main.3d267741.js.map": "/static/js/main.3d267741.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4705d9c4.css",
+    "static/js/main.3d267741.js"
+  ]
+}
