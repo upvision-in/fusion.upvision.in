@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.8ca25dd1.css",
-    "main.js": "/static/js/main.668b4492.js",
+    "main.css": "/static/css/main.a6f36415.css",
+    "main.js": "/static/js/main.ffcb392e.js",
     "static/media/UpVision.FullLogo.png": "/static/media/UpVision.FullLogo.9461cf8a290795d81361.png",
     "index.html": "/index.html",
-    "main.8ca25dd1.css.map": "/static/css/main.8ca25dd1.css.map",
-    "main.668b4492.js.map": "/static/js/main.668b4492.js.map"
+    "main.a6f36415.css.map": "/static/css/main.a6f36415.css.map",
+    "main.ffcb392e.js.map": "/static/js/main.ffcb392e.js.map"
   },
   "entrypoints": [
-    "static/css/main.8ca25dd1.css",
-    "static/js/main.668b4492.js"
+    "static/css/main.a6f36415.css",
+    "static/js/main.ffcb392e.js"
   ]
 }
